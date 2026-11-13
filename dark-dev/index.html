@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" class="is-entering">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mayur Waghela | Front-end developer for WordPress and Shopify, Mumbai</title>
+  <meta name="description" content="Mayur Waghela builds WordPress sites and Shopify stores for Indian businesses in skincare, dairy, streetwear, textiles, education, interiors and real estate.">
+  <meta name="theme-color" content="#0b0c10">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }</script>
+  <script>
+    (function () {
+      var r = matchMedia('(prefers-reduced-motion: reduce)').matches, seen = false;
+      try { seen = sessionStorage.getItem('mw-loaded') === '1'; sessionStorage.setItem('mw-loaded', '1'); } catch (e) {}
+      if (r || seen) document.documentElement.classList.add('no-loader');
+      if (r) document.documentElement.classList.remove('is-entering');
+    })();
+  </script>
+</head>
+<body data-page="home" data-base="">
+<div class="loader" aria-hidden="true">
+  <div class="loader__cols"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="loader__grid"></div>
+  <div class="loader__glow"></div>
+  <div class="loader__stage">
+    <svg class="loader__laptop" viewBox="0 0 240 150">
+      <rect class="scr" x="44" y="14" width="152" height="94" rx="3"/>
+      <path class="ln" pathLength="1" d="M40 112 V14 a6 6 0 0 1 6 -6 H194 a6 6 0 0 1 6 6 V112"/>
+      <path class="ln ln--dim" pathLength="1" d="M48 104 V18 H192 V104 Z"/>
+      <path class="ln" pathLength="1" d="M8 114 H232 l-10 18 a6 6 0 0 1 -5 3 H23 a6 6 0 0 1 -5 -3 Z"/>
+      <path class="ln ln--dim" pathLength="1" d="M100 120 H140"/>
+      <g class="code">
+        <rect x="58" y="28" width="38" height="4" rx="2" fill="#8b7bff"/>
+        <rect x="58" y="40" width="96" height="4" rx="2" fill="#ecedf2" opacity=".55"/>
+        <rect x="68" y="52" width="70" height="4" rx="2" fill="#4be3c1" opacity=".8"/>
+        <rect x="68" y="64" width="104" height="4" rx="2" fill="#ecedf2" opacity=".35"/>
+        <rect x="68" y="76" width="56" height="4" rx="2" fill="#b3a9ff" opacity=".8"/>
+        <rect x="58" y="88" width="30" height="4" rx="2" fill="#ecedf2" opacity=".55"/>
+      </g>
+    </svg>
+    <p class="loader__word" id="lword"><span>Booting the portfolio</span></p>
+  </div>
+  <span class="mono loader__name">Mayur Waghela · Portfolio</span>
+  <span class="mono loader__meta">Mumbai, India · WordPress / Shopify</span>
+  <span class="mono loader__hint">Eight live client sites, loading onto the screen.</span>
+  <p class="loader__count"><span id="count">0</span><sup>%</sup></p>
+  <i class="loader__bar" id="bar"></i>
+</div>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__gl" id="gl"></div>
+    <div class="hero__copy">
+      <p class="hero__intro" data-hero><span class="dot" aria-hidden="true"></span>Mayur Waghela · Front-end developer, Mumbai</p>
+      <h1 class="hero__title" id="hero-title" data-hero-title>I build <em>WordPress</em> sites and <em>Shopify</em> stores that sell.</h1>
+      <p class="hero__lede" data-hero>Fast, clear, easy to run. Eight live sites for brands in skincare, dairy, streetwear, textiles, education, interiors and real estate.</p>
+      <div class="hero__actions" data-hero>
+        <span class="magnet"><a class="btn" href="#work" data-label="Selected work"><span class="roll"><span>See my work</span><span aria-hidden="true">See my work</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></span>
+        <span class="magnet"><a class="btn btn--ghost" href="contact.html"><span class="roll"><span>Start a project</span><span aria-hidden="true">Start a project</span></span></a></span>
+      </div>
+    </div>
+    <div class="hero__foot" data-hero>
+      <div class="hero__screen" aria-live="polite"><span class="mono">On screen</span><span class="hero__screen-name" id="screen-name">Ramahara</span><span class="mono" id="screen-meta">WordPress</span></div>
+      <span class="hero__scroll mono" aria-hidden="true"><i></i>Scroll</span>
+    </div>
+  </section>
+
+  <div class="marquee" aria-label="Clients: Ramahara, EdgeX Learning, Dreamspace, Indo Build Enterprise, Nova Products, Cadenza, Anukrati Jaipur, Laviere">
+    <div class="marquee__inner" aria-hidden="true" id="marquee"></div>
+  </div>
+
+  <section class="section" aria-labelledby="about-t">
+    <div class="about-t">
+      <div>
+        <h2 class="mono" id="about-t" style="margin:0">About</h2>
+      </div>
+      <div>
+        <p class="about-t__text" id="about-text">I started on the e-commerce desk, listing products and watching what made shoppers buy or leave. Now I build the sites myself, for the moment someone decides to buy.</p>
+        <div style="margin-top:40px" data-rv><span class="magnet"><a class="btn btn--ghost" href="about.html"><span class="roll"><span>More about me</span><span aria-hidden="true">More about me</span></span></a></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="work" aria-labelledby="work-title" style="padding-top:0">
+    <div class="sec-head">
+      <h2 class="h2" id="work-title" data-split>Selected work</h2>
+      <p class="lede" data-rv>Every project here is live. Open one to see what the business needed and what I built.</p>
+    </div>
+    <div class="works" id="works"></div>
+    <div style="margin-top:clamp(64px,8vw,120px);text-align:center" data-rv><span class="magnet"><a class="btn" href="work/"><span class="roll"><span>All projects</span><span aria-hidden="true">All projects</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></span></div>
+  </section>
+
+  <section class="section" aria-labelledby="svc-title" style="padding-top:0">
+    <div class="sec-head">
+      <h2 class="h2" id="svc-title" data-split>What I do</h2>
+      <p class="lede" data-rv>Two platforms, done properly: built mobile-first, quick to load, and simple for your team to update.</p>
+    </div>
+    <div class="services">
+      <div class="svc" data-rv>
+        <div class="svc__head"><span class="svc__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></svg></span><h3 class="h3">WordPress sites</h3></div>
+        <p>Business sites for brands, institutes, interior firms and developers, with pages your team can edit themselves.</p>
+        <ul><li>Custom themes<span>Design → code</span></li><li>Page builds and layouts<span>Responsive</span></li><li>Forms and lead capture<span>Enquiries</span></li><li>Speed and SEO basics<span>Launch-ready</span></li></ul>
+      </div>
+      <div class="svc" data-rv>
+        <div class="svc__head"><span class="svc__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><h3 class="h3">Shopify stores</h3></div>
+        <p>Online stores for D2C food, fashion, textiles and skincare, set up so shoppers find products fast and check out without friction.</p>
+        <ul><li>Store setup and theme work<span>Storefront</span></li><li>Collections and product pages<span>Catalogue</span></li><li>Apps and reviews<span>Integrations</span></li><li>Mobile shopping flow<span>Checkout</span></li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta" aria-labelledby="cta-title">
+    <div class="cta__glow" aria-hidden="true"></div>
+    <h2 class="cta__title" id="cta-title" data-split>Let's build your <em>next</em> site.</h2>
+    <div class="cta__row" data-rv>
+      <span class="magnet"><a class="btn" href="contact.html"><span class="roll"><span>Start a project</span><span aria-hidden="true">Start a project</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></span>
+      <span class="magnet"><a class="btn btn--ghost" href="https://wa.me/918600521908" target="_blank" rel="noopener"><span class="roll"><span>WhatsApp me</span><span aria-hidden="true">WhatsApp me</span></span></a></span>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script>
+  // Preloader: a laptop draws itself while the page loads, its screen fills
+  // with code, then five columns lift away, each trailing a violet edge.
+  window.__loaderDone = new Promise((done) => {
+    const html = document.documentElement;
+    if (html.classList.contains('no-loader') || typeof gsap === 'undefined') { done(); return; }
+    const q = (s) => document.querySelectorAll('.loader ' + s);
+    const lines = q('.ln'), code = q('.code rect');
+    const count = document.getElementById('count'), bar = document.getElementById('bar'), lw = document.getElementById('lword');
+    const words = ['Booting the portfolio', 'Loading <b>WordPress</b> builds', 'Loading <b>Shopify</b> stores', 'Wiring up <b>Three.js</b>', 'Timing <b>GSAP</b>', 'Ready'];
+    let wi = 0;
+    const setWord = (i) => {
+      if (i === wi || i >= words.length) return; wi = i;
+      const old = lw.lastElementChild, nu = document.createElement('span');
+      nu.innerHTML = words[i]; lw.append(nu);
+      gsap.fromTo(nu, { yPercent: 100 }, { yPercent: 0, duration: 0.5, ease: 'expo.out' });
+      gsap.to(old, { yPercent: -100, duration: 0.5, ease: 'expo.out', onComplete: () => old.remove() });
+    };
+    gsap.from('.loader__name, .loader__meta, .loader__hint', { opacity: 0, y: 12, duration: 0.8, ease: 'expo.out', stagger: 0.08 });
+    gsap.from('.loader__count', { yPercent: 60, opacity: 0, duration: 1, ease: 'expo.out' });
+    const finish = () => {
+      setWord(words.length - 1);
+      gsap.timeline({ onComplete: () => gsap.set('.loader', { display: 'none' }) })
+        .to('.loader .scr', { opacity: 0.85, duration: 0.25, ease: 'power2.out' })
+        .to('.loader .scr', { opacity: 0, duration: 0.5, ease: 'power2.in' })
+        .to('.loader__stage', { scale: 1.5, opacity: 0, duration: 0.8, ease: 'expo.in' }, 0.15)
+        .to('.loader__count > span, .loader__count sup', { yPercent: -110, duration: 0.6, ease: 'expo.in' }, 0.15)
+        .to('.loader__name, .loader__meta, .loader__hint, .loader__grid, .loader__glow, .loader__bar', { opacity: 0, duration: 0.4 }, 0.25)
+        .set('.loader', { background: 'transparent' }, 0.7)
+        .add(done, 0.85)
+        .to('.loader__cols i', { yPercent: -100, y: () => -innerHeight * 0.12, duration: 1.1, ease: 'expo.inOut',
+          stagger: { each: 0.07, from: 'center' } }, 0.7);
+    };
+    const o = { v: 0 };
+    gsap.to(o, { v: 100, duration: 2.4, ease: 'power2.inOut',
+      onUpdate: () => {
+        const p = o.v / 100;
+        count.textContent = Math.round(o.v);
+        bar.style.transform = 'scaleX(' + p + ')';
+        lines.forEach((l, i) => (l.style.strokeDashoffset = 1 - Math.min(1, Math.max(0, p * 1.8 - i * 0.12))));
+        code.forEach((r, i) => { r.style.transform = 'scaleX(' + Math.min(1, Math.max(0, (p - 0.45 - i * 0.07) * 6)) + ')'; });
+        setWord(Math.min(words.length - 2, Math.floor(p * (words.length - 1))));
+      },
+      onComplete: () => (document.readyState === 'complete' ? finish() : addEventListener('load', finish, { once: true })) });
+  });
+</script>
+<script src="js/main.js"></script>
+<script src="js/laptop.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

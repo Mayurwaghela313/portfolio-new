@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="is-entering">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Mayur Waghela, WordPress and Shopify developer</title>
+  <meta name="description" content="Start a WordPress site or Shopify store with Mayur Waghela. Email, WhatsApp, or send a short brief.">
+  <meta name="theme-color" content="#0b0c10">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.remove('is-entering');</script>
+</head>
+<body data-page="contact" data-base="">
+<main id="main">
+  <header class="phead">
+    <h1 class="phead__title" data-split>Let's talk</h1>
+    <div class="phead__row"><p class="lede" data-rv>Tell me about the site or store you need. A few lines is enough to start.</p></div>
+  </header>
+  <div class="contact-grid">
+    <ul class="channels" data-rv>
+      <li><a href="mailto:mayurwaghela33183@gmail.com"><span><span class="mono">Email</span><strong>mayurwaghela33183<wbr>@gmail.com</strong></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+      <li><a href="https://wa.me/918600521908" target="_blank" rel="noopener"><span><span class="mono">WhatsApp</span><strong>Message me</strong></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+      <li><a href="tel:+918600521908"><span><span class="mono">Phone</span><strong>+91 86005 21908</strong></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+      <li><a href="https://www.linkedin.com/in/mayur-waghela-6a6a15333/" target="_blank" rel="noopener"><span><span class="mono">LinkedIn</span><strong>Mayur Waghela</strong></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+    </ul>
+    <form class="form" id="brief" novalidate data-rv>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" placeholder="Your name" required aria-describedby="e-name"><p class="err" id="e-name" hidden></p></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required aria-describedby="e-email"><p class="err" id="e-email" hidden></p></div>
+      <fieldset class="field" style="border:0;margin:0;padding:0;min-width:0">
+        <legend>Project</legend>
+        <div class="choices">
+          <label><input type="radio" name="type" value="WordPress site" checked><span>WordPress site</span></label>
+          <label><input type="radio" name="type" value="Shopify store"><span>Shopify store</span></label>
+          <label><input type="radio" name="type" value="Redesign"><span>Redesign</span></label>
+          <label><input type="radio" name="type" value="Something else"><span>Something else</span></label>
+        </div>
+      </fieldset>
+      <div class="field"><label for="msg">Details</label><textarea id="msg" name="msg" placeholder="What does your business do, and what should the site help with?" required aria-describedby="e-msg"></textarea><p class="err" id="e-msg" hidden></p></div>
+      <div class="form__foot">
+        <span class="mono">Sending opens your email app with this message filled in.</span>
+        <button class="btn" type="submit"><span class="roll"><span>Send brief</span><span aria-hidden="true">Send brief</span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+      <p class="mono" id="sent" role="status" hidden style="text-transform:none;letter-spacing:0;color:var(--text)">Your email app should open now. If it doesn't, write to mayurwaghela33183@gmail.com.</p>
+    </form>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>
